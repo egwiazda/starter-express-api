@@ -1,0 +1,86 @@
+.container-shop {
+    display: flex;
+    padding: var(--spacing-68) 0;
+}
+
+.items__list {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* Filters aside */
+
+.filters__container {
+    padding-right: var(--spacing-20);
+}
+
+.filters__form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-28);
+}
+
+.filter {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-16);
+}
+
+.filter--price {
+    display: flex;
+    gap: 10px;
+}
+
+.filter__li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+/* Paginator */
+
+.pagination-bar {
+    width: 100%;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 0;
+}
+
+.pagination-bar .pagination-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.pagination-bar .pagination-container .prev {
+    opacity: 0.5;
+    background: #919eab;
+    color: #c4cdd5;
+}
+
+.pagination-bar .pagination-container .prev:hover {
+    opacity: 1;
+    color: #111;
+}
+
+.pagination-bar .pagination-container .first {
+    border: 1px solid #ff3333;
+    color: #ff3333;
+    background: #fff;
+}
+
+.pagination-bar .pagination-container button {
+    width: 44px;
+    height: 44px;
+    border-radius: 4px;
+    font-size: 1.6em;
+    font-weight: 700;
+    line-height: 20px;
+    background: #fff;
+}

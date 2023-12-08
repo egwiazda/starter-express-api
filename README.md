@@ -1,11 +1,15 @@
-# starter-express-api
+# 🚀 FUNKOSHOP
 
-This is the simplest possible nodejs api using express that responds to any request with: 
-```
-Yo!
-```
+### Tienda en línea sobre venta de figuras coleccionables Funkos.
 
-### Deploy it in 7 seconds: 
+Este es un proyecto integrador como parte del challenge integrador para el curso de NodeJS del Programa Codo a Codo 4.0.
 
-[![Deploy to Cyclic](https://deploy.cyclic.app/button.svg)](https://deploy.cyclic.app/)
+## ⚙️ Lenguajes Utilizados:
 
+- HTML
+- CSS
+    - Flex
+    - Grid
+- JavaScript
+- Node JS
+- Express JS

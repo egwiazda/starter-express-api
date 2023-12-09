@@ -14,4 +14,4 @@ router.get('/cart', shopController.getShoppingCart);
 
 router.post('/cart', shopController.updateShoppingCart);
 
-module.exports = router;
+module.exports = router ;
